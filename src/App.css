@@ -1,0 +1,30 @@
+
+inpurt:active {
+    border: 1px solid #3e444d;
+}
+input[type=email], input[type=password]{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:#222933;
+    color: white;
+  }
+  
+  input[type=submit] {
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
